@@ -6,7 +6,7 @@ void InvtrianglePattern(int value)
     for (int i = 0; i < value; i++)
     {
         // space
-        for (int j = 0; j < value; j++)
+        for (int j = 0; j < i; j++)
         {
             cout << " ";
         }
@@ -16,7 +16,7 @@ void InvtrianglePattern(int value)
             cout << "*";
         }
         // space
-        for (int j = 0; j < value; j++)
+        for (int j = 0; j < i; j++)
         {
             cout << " ";
         }
