@@ -4,6 +4,7 @@
 a.out
 *.app
 *.o
+Recurssion/[^.]*
 
 # Build artifacts
 build/
