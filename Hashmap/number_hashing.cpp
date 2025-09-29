@@ -19,11 +19,14 @@ int main()
 
     int q;
     cin >> q;
-    int number;
+
     while (q--)
     {
-
+        int number;
         cin >> number;
         cout << "numberd count: " << hash[number] << endl;
     }
 }
+
+// Number hashing
+// character hashing
