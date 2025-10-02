@@ -4,9 +4,9 @@ using namespace std;
 int main()
 {
     string s;
-    cin >> s;
+    cin >> s; 
 
-    int hash_char[256] = {0};
+    int hash_char[256 ] = {0};
     for (int i = 0; i < s.size(); i++)
     { // this works for lowercase letter as the letters starts from 97
         hash_char[s[i] - 'a']++;
